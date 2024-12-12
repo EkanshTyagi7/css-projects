@@ -19,12 +19,13 @@ body{
 .flex-container .one{
     font-size: 24px;
     color:#F9FAF8 ;
+    font-weight: bold;
     
 
 }
 .main-div{
     background-color: #1F2937;
-    height: 494px;
+    height: 534px;
     
 }
 .flex-container a{
@@ -61,14 +62,14 @@ body{
     
 }
 .parent #two{
-    height: 204px;
+    height: 232px;
     width: 481px;
-    background-color: gray;
+    background-color: #6d747d;
     text-align: center;
     margin-top: 24px;
     margin-left: 57px;
     margin-right: 14px;
-    padding-top: 96px;
+    padding-top: 108px;
 }
 
 .flex-container .one,.two{
@@ -82,5 +83,118 @@ body{
     color: #F9FAF8;
     width: 112px;
     height: 36px;
+    border: 1px #3882F6;
+}
+.mid1{
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    margin: 32px;
+    padding: 7px;
+}
+.mid2{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.mid2> #one,#twoo,#three,#four{
+    height: 200px;
+    width: 200px;
+    outline: 4px solid #3882F6;
+    border-radius: 16px;
+
+}
+.mid3{
+    display: flex;
+    justify-content: center;
+    gap: 67px;
+    flex-wrap: wrap;
+    padding-top: 13px;
+    color: hsl(215deg 13.79% 34.12%);
+}
+.mid3> #aa,#bb,#cc,#dd{
+    height: 200px;
+    width: 173px;   
+}
+#dd{
+    margin-right: 3px;
+
+}
+#midd{
+    height: 489px;
+
+}
+#quo{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    height: 389px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.q1{
+    color:#1F2937 ;
+    font-size: 36px;
+    font-style:italic;
+    font-weight: lighter;
+    width: 787px;
+
+}
+.q2{
+    padding-left: 518px;
+    padding-top: 5px;
+    font-size: 24px;
+    font-weight: bold;
+}
+#low{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 341px;
+    
+   
+}
+#low > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    height: 147px;
+    width: 949px;
+    border-radius: 13px;
+    gap: 171px;
+}
+.l1{
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.l2{
+    color: #E5E7EB;
+
+    
+}
+.l3 button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-size: 21px;
+    height: 42px;
+    width: 123px;
+    font-weight: bold;
+    border-radius: 9px;
+    border: 2px solid;
+}
+.end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
